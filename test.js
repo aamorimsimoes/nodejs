@@ -1,3 +1,11 @@
-const test = 'Amorim';
+// const test = 'Amorim';
 
-console.log(test);
+// console.log(test);
+
+const greet = (name) => {
+  console.log(`hello, ${name}`);
+}
+
+greet('mario');
+greet('yoshi');
+ 
