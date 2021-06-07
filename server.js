@@ -1,17 +1,22 @@
 const http = require('http');
 const fs = require('fs');
+const _ = require('lodash');
 
 const server = http.createServer((req, res) => {
-  // console.log('request made');
-  console.log(req.url, req.method);
+  
+  // lodash
+  const num = _.random(0, 20);
+  console.log(num);
+
+  const greet = _.once(() => {
+    console.log('hello');
+  });
+
+  greet();
+  greet();
 
   // set header content type
   res.setHeader('content-type', 'text/html');
-
-  // res.write('<head><link rel="stylesheet" href="#"></head>')
-  // res.write('<p>hello, amorim</p>');
-  // res.write('<p>hello again, amorim</p>');
-  // res.end();
 
   let path = './views/';
   switch(req.url) {
