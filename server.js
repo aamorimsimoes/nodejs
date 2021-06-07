@@ -13,8 +13,21 @@ const server = http.createServer((req, res) => {
   // res.write('<p>hello again, amorim</p>');
   // res.end();
 
+  let path = './views/';
+  switch(req.url) {
+    case '/':
+      path += 'index.html';
+      break;
+    case '/about':
+      path += 'about.html';
+      break;
+    default:
+      path += '404.html';
+      break;
+  }
+
   // send a html file 
-  fs.readFile('./views/index.html', (err, data) => {
+  fs.readFile(path, (err, data) => {
     if (err) {
       console.log(err);
       res.end();
