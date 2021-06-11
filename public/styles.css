@@ -64,6 +64,29 @@ h3{
   color: crimson;
 }
 /* details styles */
+.details{
+  position: relative;
+}
+.delete{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Noto Serif', serif;
+  cursor: pointer;
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+.delete:hover{
+  cursor: pointer;
+  opacity: 1;
+}
 /* create styles */
 .create-blog form{
   max-width: 400px;
@@ -89,7 +112,7 @@ textarea{
   background-color: #f4511e;
   border: none;
   color: white;
-  padding: 14px 30px;
+  padding: 10px 20px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
@@ -98,6 +121,7 @@ textarea{
 }
 .create-blog button:hover{
   opacity: 1;
+  cursor: pointer;
 }
 .content .snippet {
   font-size: 15px;
