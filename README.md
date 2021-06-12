@@ -3,11 +3,11 @@
 using:<br>
 <br>
 <strong>ejs</strong> - embedded JavaScript templating<br>
-express - web framework for Node.js<br>
-lodash - modern JavaScript utility library delivering modularity, performance & extras<br>
-mongoose - provides a straight-forward, schema-based solution to model your application data<br>
-morgan - HTTP request logger middleware for node.js<br>
-nodemon - simple monitor script for use during development of a node.js app<br>
+<strong>express</strong> - web framework for Node.js<br>
+<strong>lodash</strong> - modern JavaScript utility library delivering modularity, performance & extras<br>
+<strong>mongoose</strong> - provides a straight-forward, schema-based solution to model your application data<br>
+<strong>morgan</strong> - HTTP request logger middleware for node.js<br>
+<strong>nodemon</strong> - simple monitor script for use during development of a node.js app<br>
 
 # Usage
 
