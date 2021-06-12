@@ -2,7 +2,7 @@
 
 using:<br>
 <br>
-ejs - embedded JavaScript templating<br>
+<strong>ejs</strong> - embedded JavaScript templating<br>
 express - web framework for Node.js<br>
 lodash - modern JavaScript utility library delivering modularity, performance & extras<br>
 mongoose - provides a straight-forward, schema-based solution to model your application data<br>
