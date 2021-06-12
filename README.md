@@ -11,7 +11,7 @@ using:<br>
 
 # Usage
 
-1. in file secret.js (at the root of the project) replace <user> with your username, <password> with the password for your user and replace database with the name of the database that connections will use by default.<br><br>
+1. in file secret.js (at the root of the project) replace connection String URI Format with your info;<br><br>
 2. install dependencies:
 ```bash
 $ npm i
