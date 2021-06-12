@@ -1,4 +1,4 @@
-# nodejs exercise
+# nodejs exercise (BLOG w/ CRUD (GET, POST & DELETE))
 
 using:<br>
 <br>
