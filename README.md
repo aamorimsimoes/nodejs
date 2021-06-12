@@ -11,11 +11,12 @@ using:<br>
 
 # Usage
 
-1. install dependencies:
+1. in file secret.js (at the root of the project) replace <user> with your username, <password> with the password for your user and replace database with the name of the database that connections will use by default.
+2. install dependencies:
 ```bash
 $ npm i
 ```
-2. run nodemon:
+3. run nodemon:
 ```bash
 $ npx nodemon app (windows) || nodemon app (unix)
 ```
